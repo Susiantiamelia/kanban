@@ -27,7 +27,7 @@
             </v-card>
         </v-flex>
         <v-spacer></v-spacer>
-        <v-flex xs3>
+        <v-flex xs3 style="margin-left: 20px">
             <v-card color="grey">
               <v-card-title>To Do</v-card-title>
               <v-container v-for="task of tasks" :key="task['.key']">
@@ -55,7 +55,7 @@
             </v-card>
         </v-flex>
         <v-spacer></v-spacer>
-        <v-flex xs3>
+        <v-flex xs3 style="margin-left: 20px">
             <v-card color="green">
               <v-card-title>Doing</v-card-title>
               <v-container v-for="task of tasks" :key="task['.key']">
@@ -83,7 +83,7 @@
             </v-card>
         </v-flex>
         <v-spacer></v-spacer>
-        <v-flex xs3>
+        <v-flex xs3 style="margin-left: 20px">
             <v-card color="red">
               <v-card-title>Done</v-card-title>
               <v-container v-for="task of tasks" :key="task['.key']">
